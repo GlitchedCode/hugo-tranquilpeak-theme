@@ -27,7 +27,7 @@ $font-families: (
 
 // equal to 15px
 $font-size-base:      1.6rem;
-$font-color-base:     #5d686f;
+$font-color-base:     #f5f3f6;
 $line-height-base:    1.9em;
 $letter-spacing-base: 0.01em;
 
@@ -49,13 +49,17 @@ $font-size: (
 $colors: (
     'success': #4dc657,
     'danger':  #f5311d,
-    'primary': #349ef3,
+    'primary': #c6bfcf,
     'purple':  #cf6ae0,
     'base':    $font-color-base,
     'warning':  #f5aa0a,
     'light':   #9eabb3,
      // use for tag `a`
-    'link':    #349ef3
+    'link':    #349ef3,
+    'text': #f5f3f6,
+    'background': #191221,
+    'secondary': #0d0b0f,
+    'accent': #726383,
 );
 
 // Z-indexes
@@ -140,9 +144,9 @@ $about: (
 // Header
 $header:(
     'height':     55px,
-    'background': #fff,
+    'background': map-get($colors, 'secondary'),
     'color':      #88909a,
-    'border':     1px solid #eef2f8
+    'border':     1px solid map-get($colors, 'accent')
 );
 
 // Sidebar
@@ -157,7 +161,7 @@ $sidebar: (
 // Main
 $main: (
     'padding-top':      15px,
-    'background-color': #fff
+    'background-color': map-get($colors, 'background')
 );
 
 // Components settings
