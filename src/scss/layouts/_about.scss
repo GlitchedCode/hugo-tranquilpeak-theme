@@ -48,6 +48,7 @@
             padding: 0 30px;
             margin:  0 0 30px 0;
         }
+
         #about-card-job,
         #about-card-location {
             display:        inline-block;
@@ -60,6 +61,14 @@
             line-height: $line-height-base;
             font-weight: 400;
             color:       map-get($colors, base);
+        }
+
+        #about-card-mail,
+        #about-card-phone {
+            padding: 0 30px;
+            margin-bottom: 20px;
+            margin-top: 20px;
+            color: map-get($colors, base);
         }
     }
 }
