@@ -10,7 +10,6 @@
                {{ with .Params.coverCaption }}hasCoverCaption{{ end }}">
         <section class="postShorten-group main-content-wrap">
           {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" site.Params.mainSections ) }}
-          p sello
           {{ range $paginator.Pages }}
             {{ .Render "summary" }}
           {{ end }}

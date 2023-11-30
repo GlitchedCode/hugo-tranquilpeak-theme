@@ -66,6 +66,7 @@
             display:   block;
             width:     auto;
             max-width: 100%;
+            border-radius: 8px;
         }
     }
     .postShorten-excerpt {
@@ -87,6 +88,7 @@
 
             img {
                 display: none;
+                border-radius: 8px;
             }
         }
     }
@@ -105,6 +107,7 @@
                 height:     $post-thumbnail-image-width;
                 object-fit: cover;
                 overflow:   hidden;
+                border-radius: 8px;
             }
         }
         .postShorten-wrap {
@@ -123,6 +126,7 @@
                 height:     $post-thumbnail-image-width;
                 object-fit: cover;
                 overflow:   hidden;
+                border-radius: 8px;
             }
         }
         .postShorten-wrap {
@@ -155,6 +159,7 @@
                 height:     auto;
                 max-height: $post-bottom-thumbnail-image-max-height;
                 object-fit: cover;
+                border-radius: 8px;
             }
         }
     }
